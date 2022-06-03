@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: auto;
+    width: 100vw;
+    position: relative;
+}
+.top-nav{
+    position: relative;
+}
+.top-nav-list{
+    position: absolute;
+    right: 5px;
+    margin-top: 8px;
+}
+.top-list-items{
+    display: inline;
+    padding: 8px;
+    font-size: 15px;
+}
+.href{
+    text-decoration: none;
+}
+.href:hover{
+    color: red;
+}
+.href:active{
+    color: green;
+}
+
+.content{
+    width: 60vw;
+    height: auto;
+    position: absolute;
+    left: 20%;
+    right: 0;
+    top: 40px;
+    /* border: 2px solid red; */
+    padding: 5px;
+    z-index: -1;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid green; */
+}
+.video-description{
+    text-align: center;
+    padding: 5px 80px 5px;
+    text-align: justify;
+}
+.video-size{
+    width: 560px;
+    height: 300px;
+}
+.video-heading{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.wrap-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.open-btn{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+.wrap{
+    background-color: red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition:  transform cubic-bezier(0.785, 0.135, 0.15, 0.86) .5s ease-in-out; 
+}
+.wrap-black{
+    background-color: rgb(34, 31, 31);
+    width: 60%;
+    max-width: 480px;
+    transition-delay: 0.2s;
+}
+.wrap-white{
+    background-color: white;
+    width: 95%;
+    padding: 40px;
+    position: relative;
+}
+.close-btn{
+    opacity: 0.5;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 20px;
+}
+.side-nav-list{
+    list-style-type: none;
+}
+.side-list-items{
+    margin: 20px 0;
+}
+.href{
+    color: rgb(34, 31, 31);
+}
+.href-top{
+    font-weight: 900;
+    text-decoration: none;
+    color: rgb(34, 31, 31);
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 359px) and (max-width: 600px) {
+    .top-nav{
+        display: none;
+    }
+    .content{
+        width: 55vw;
+        height: auto;
+        position: absolute;
+        left: 6%;
+        right: 12%;
+        top: 60px;
+        padding: 5px;
+    }
+    .video-size{
+        width: 195px;
+        height: auto;
+    }
+    .video-heading{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .video-description{
+        font-size: 11px;
+        padding: 5px 0px 5px;
+    }
+    
+    .top-list-items{
+        display: inline;
+        padding: 5px;
+        font-size: 12px;
+    }
+}
