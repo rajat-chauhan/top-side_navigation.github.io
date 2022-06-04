@@ -168,15 +168,19 @@ body {
 
 
 
-
+/* For Responsiveness */
 
 @media screen and (min-width: 359px) and (max-width: 600px) {
+    #top-nav-bg {
+        height: 6%;
+        background-color: rgb(53, 51, 51);
+    }    
     .top-nav {
         display: none;
     }
 
     .content {
-        width: 55vw;
+        width: 70vw;
         height: auto;
         position: absolute;
         left: 22%;
@@ -186,19 +190,19 @@ body {
     }
 
     .video-size {
-        width: 54vw;
+        width: 68vw;
         height: auto;
     }
 
     .video-heading {
         margin-top: 10px;
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .video-description {
         font-size: 11px;
         padding: 5px 0px 5px;
-        width: 54vw;
+        width: 68vw;
     }
 
     .top-list-items {
@@ -244,7 +248,7 @@ body {
 
 @media screen and (min-height: 320px) and (max-height: 420px) {
     #top-nav-bg {
-        height: 7%;
+        height: 6.5%;
         background-color: rgb(53, 51, 51);
     }
     .href{
