@@ -194,7 +194,7 @@ body{
         font-size: 10px;
         color: rgb(34, 31, 31);
     }
-    .close-btn{
+    .closeSideNavBtn{
         position: absolute;
         top: 6px;
         right: 6px;
