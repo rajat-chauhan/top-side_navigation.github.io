@@ -47,7 +47,6 @@ body{
     background-color: darkgray;
     padding: 2px;
 }
-
 .content{
     width: 50vw;
     height: auto;
@@ -78,26 +77,26 @@ body{
     margin-top: 10px;
     font-size: 20px;
 }
-.wrap-btn{
+.btn-styling{
     background-color: transparent;
     border: none;
     cursor: pointer;
     font-size: 16px;
 }
-.open-btn{
+.openSideNavBtn{
     position: fixed;
     top: 10px;
     left: 10px;
     color: white;
 }
-.wrap{
+.side-nav{
     background-color: red;
     position: fixed;
     top: 0;
     left: 0;
     height: 100vh;
     transform: translateX(-100%);
-    transition:  transform cubic-bezier(0.785, 0.135, 0.15, 0.86) .5s ease-in-out; 
+    transition:  transform .5s ease-in-out; 
 }
 .wrap-black{
     background-color: rgb(34, 31, 31);
@@ -111,7 +110,7 @@ body{
     padding: 40px;
     position: relative;
 }
-.close-btn{
+.closeSideNavBtn{
     opacity: 0.5;
     position: absolute;
     top: 30px;
