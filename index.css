@@ -124,12 +124,12 @@ body{
 .side-list-items{
     margin: 20px 0;
 }
-.href-top{
+.href-side-top{
     font-weight: 900;
     text-decoration: none;
     color: rgb(34, 31, 31);
 }
-.href-top:hover{
+.href-side-top:hover{
     color: red;
 }
 
@@ -173,5 +173,32 @@ body{
         display: inline;
         padding: 5px;
         font-size: 12px;
+    }
+    .wrap-black{
+        background-color: rgb(34, 31, 31);
+        width: 38vw;
+        transition-delay: 0.2s;
+    }
+    .wrap-white{
+        width: 35vw;
+        padding: 5px;
+        position: relative;
+    }
+    .side-list-items{
+        margin: 16px 0;
+    }
+    .side-href{
+        font-size: 10px;
+    }
+    .href-side-top{
+        margin-top: 30px;
+        font-size: 10px;
+        color: rgb(34, 31, 31);
+    }
+    .close-btn{
+        position: absolute;
+        top: 6px;
+        right: 6px;
+        font-size: 15px;
     }
 }
