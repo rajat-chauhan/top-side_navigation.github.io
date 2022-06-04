@@ -10,19 +10,28 @@ body{
     height: auto;
     width: 100vw;
     position: relative;
+    background-color: rgb(202, 199, 199);
+    /* background-image: url("./images/thor.jpg"); */
 }
 .top-nav{
     position: relative;
+    height: 6vh;
+    background-color: rgb(53, 51, 51);
 }
 .top-nav-list{
     position: absolute;
     right: 5px;
-    margin-top: 8px;
+    margin-top: 9.4px;
 }
 .top-list-items{
     display: inline;
     padding: 8px;
     font-size: 15px;
+}
+.top-list-items .href{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 2px white;
 }
 .href{
     text-decoration: none;
@@ -35,13 +44,13 @@ body{
 }
 
 .content{
-    width: 60vw;
+    width: 50vw;
     height: auto;
     position: absolute;
     left: 20%;
     right: 0;
     top: 40px;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     padding: 5px;
     z-index: -1;
 }
@@ -54,16 +63,19 @@ body{
 }
 .video-description{
     text-align: center;
-    padding: 5px 80px 5px;
+    padding: 5px;
     text-align: justify;
+    width: 48vw;
+    /* color: white; */
 }
 .video-size{
-    width: 560px;
-    height: 300px;
+    width: 48vw;
+    height: 350px;
 }
 .video-heading{
     margin-top: 10px;
     font-size: 20px;
+    /* color: white; */
 }
 .wrap-btn{
     background-color: transparent;
@@ -75,6 +87,7 @@ body{
     position: fixed;
     top: 10px;
     left: 10px;
+    color: white;
 }
 .wrap{
     background-color: red;
@@ -110,9 +123,6 @@ body{
 .side-list-items{
     margin: 20px 0;
 }
-.href{
-    color: rgb(34, 31, 31);
-}
 .href-top{
     font-weight: 900;
     text-decoration: none;
@@ -120,6 +130,9 @@ body{
 }
 
 
+.visible{
+    transform: translateX(0);
+}
 
 
 
