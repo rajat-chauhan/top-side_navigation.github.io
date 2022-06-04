@@ -16,7 +16,7 @@ body {
 }
 
 #top-nav-bg {
-    height: 7%;
+    height: 6.5%;
     background-color: rgb(53, 51, 51);
 }
 
@@ -66,9 +66,9 @@ body {
     width: 50vw;
     height: auto;
     position: absolute;
-    left: 20%;
+    left: 24%;
     right: 0;
-    top: 40px;
+    top: 45px;
     padding: 5px;
     z-index: -1;
 }
